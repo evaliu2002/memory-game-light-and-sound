@@ -39,14 +39,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![Winning Gif + Button Images + More than 4 Buttons] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameWinning.gif?v=1648461323054 <br>
-![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160374193-94f010b3-0705-4d80-8fc2-37acac8d0f47.gif)
-![Losing Gif + Guessing Strikes Gif] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameLosing.gif?v=1648461320029 <br>
-![LightandSoundMemoryGameLosing](https://user-images.githubusercontent.com/69877857/160374314-baf6713d-e806-4303-8f2e-057765497269.gif)
-![Guessing TimerBeginningLosing] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/TickingClock1.gif?v=1648465240960 <br>
-![TickingClock1](https://user-images.githubusercontent.com/69877857/160384344-a819c8e0-5e56-4be4-9000-86cbbcbb1a4b.gif)
-
-![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
