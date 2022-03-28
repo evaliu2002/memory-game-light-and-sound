@@ -14,6 +14,17 @@ var volume = 0.5; // must be between 0x0 and 1.0
 var guessCounter = 0;
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
 var strikes = 0; // amount of mistakes a user made
+var timeCounter = 1; // the seconds in time that the user has not guessed so far
+var timeCont = false;
+
+function timeKeeping() {
+  document.getElementById("timer").innerHTML = timeCounter++;
+  if(timeCounter === 9){
+    clearInterval();
+    stopGame();
+    timeCont = false;
+  }
+}
 
 function generateRandomPattern() {
   for (let i = 0; i < pattern.length - 1; i++) {
@@ -25,6 +36,7 @@ function generateRandomPattern() {
 function startGame() {
   // initialize game variables
   strikes = 0;
+  timeCounter = 1;
   generateRandomPattern();
   // for (let i = 0; i < pattern.length - 1; i++) {
   //   if (pattern[i] == null) {
@@ -43,6 +55,7 @@ function startGame() {
 
 function stopGame() {
   gamePlaying = false;
+  timeCounter = 1;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
 }
@@ -64,6 +77,7 @@ function playSingleClue(btn) {
 }
 
 function playClueSequence() {
+  timeCont = false;
   guessCounter = 0;
   let delay = nextClueWaitTime; // set delay to initial wait time
   for (let i = 0; i <= progress; i++) {
@@ -74,6 +88,18 @@ function playClueSequence() {
     delay += cluePauseTime;
   }
   
+  timeCont = true;
+  if (timeCont = true) {
+    const timer = setInterval(function() {
+                        document.getElementById("timer").innerHTML = timeCounter++;
+                        if(timeCounter === 9){
+                          clearInterval(timer);
+                          stopGame();
+                          timeCont = false;
+                          document.getElementById("timer").innerHTML = "Try again";
+                        }
+                      }, 1000);
+  }
 }
 
 function guess(btn) {
@@ -81,6 +107,10 @@ function guess(btn) {
   if (!gamePlaying) {
     return;
   }
+  
+  timeCont = false;
+  clearInterval();
+  timeCounter = 1;
   
   // add game logic here
   if (pattern[guessCounter] == btn) {
@@ -112,23 +142,6 @@ function loseGame(){
 }
 
 // Sound Synthesis Functions
-const freqMap = {
-  1: 274,
-  2: 444,
-  3: 198,
-  4: 466.2,
-  5: 502
-}
-
-function playTone(btn,len){ 
-  o.frequency.value = freqMap[btn]
-  g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
-  context.resume()
-  tonePlaying = true
-  setTimeout(function(){
-    stopTone()
-  },len)
-}
 
 function playSound(btn, len) {
     switch(btn) {
@@ -197,6 +210,31 @@ function startSound(btn) {
   }
 }
 
+function stopTone(){
+  g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
+  tonePlaying = false
+}
+
+// Old Sound Synthesis Functions
+
+const freqMap = {
+  1: 274,
+  2: 444,
+  3: 198,
+  4: 466.2,
+  5: 502
+}
+
+function playTone(btn,len){ 
+  o.frequency.value = freqMap[btn]
+  g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
+  context.resume()
+  tonePlaying = true
+  setTimeout(function(){
+    stopTone()
+  },len)
+}
+
 function startTone(btn){
   if(!tonePlaying){
     context.resume()
@@ -205,11 +243,6 @@ function startTone(btn){
     context.resume()
     tonePlaying = true
   }
-}
-
-function stopTone(){
-  g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
-  tonePlaying = false
 }
 
 // Page Initialization
