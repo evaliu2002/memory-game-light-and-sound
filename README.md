@@ -44,6 +44,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![Losing Gif + Guessing Strikes Gif] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameLosing.gif?v=1648461320029 <br>
 ![LightandSoundMemoryGameLosing](https://user-images.githubusercontent.com/69877857/160374314-baf6713d-e806-4303-8f2e-057765497269.gif)
 ![Guessing TimerBeginningLosing] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/TickingClock1.gif?v=1648464965108 <br>
+![TickingClock1](https://user-images.githubusercontent.com/69877857/160384108-dcbd835f-bdbb-443c-9fc6-6c47c601b490.gif)
 
 ![](gif4-link-here)
 
