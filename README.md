@@ -68,16 +68,14 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    some of the Javascript syntax as I usually program using Java, it took me a short while to be able to type up parts of my code.
    I overcame this challenge through practicing getting used to Javascript syntax by searching up about Javascript
    syntax and reading more about it.
-   Another challenge was when I was implementing the random pattern generator. I assumed that implementing a random number
+   Another challenge was when I was implementing the random pattern generator. I created a function to randomly generate 
+   the entire pattern and then ran the pattern in the startGame function. I assumed that implementing a random number
    generator in Javascript was different than Java due to Javascript variables and objects. I was stuck for 40 minutes
    wondering why the number generator wasn't inputting numbers into my pattern array until I realized that I just forgot
    the parenthesis after Math.random when I was comparing my code with examples online.
-   It was funny but also really frustrating after I finished debugging.
-   A third challenge I had was when I implemented my random pattern generator. I created a function to randomly generate the
-   entire pattern and then ran the pattern in the startGame function. Due to the pattern generator function returning the
-   entire pattern, the function had delays in returning the pattern to startGame. To fix this problem, I altered the pattern
-   generator function to only generate one number and then pushed the random numbers into the pattern array inside startGame
-   which sped up the pattern generating.]
+   In addition, due to the pattern generator function returning the entire pattern, the function had delays in returning the 
+   pattern to startGame. To fix this problem, I altered the pattern generator function to only generate one number and then 
+   pushed the random numbers into the pattern array inside startGame which sped up the pattern generating.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) <br>
    [Questions I have about web development is how I would be able to host a website after I finished implementing
