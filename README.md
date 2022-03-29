@@ -39,15 +39,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here: <br>
-<p> Winning Gif + Button Images + More than 4 Buttons </p> <br>
+<p> Winning Gif + Button Images + More than 4 Buttons </p>
 ![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160548546-a491c1f4-d949-468e-81c2-fe0f802a0891.gif)
-<p> Losing Gif + Guessing Strikes Gif </p> <br>
+<p> Losing Gif + Guessing Strikes Gif </p>
 ![LightandSoundMemoryGameLosing](https://user-images.githubusercontent.com/69877857/160548573-d32a4cb8-957d-4195-ad7e-3dcc375ca7ad.gif)
-<p> Guessing Timer Beginning Try Again </p> <br>
+<p> Guessing Timer Beginning Try Again </p>
 ![Guessing Timer Beginning Try Again](https://user-images.githubusercontent.com/69877857/160548938-e19f0a08-f529-434d-8c62-afc33d98e265.gif)
-<p> Timer After Correct Guess and Pressing Stop Button </p> <br>
+<p> Timer After Correct Guess and Pressing Stop Button </p>
 ![Timer After Correct Guess and Pressing Stop Button](https://user-images.githubusercontent.com/69877857/160548689-2aba3517-292c-4e35-9553-7677d53acc74.gif)
-<p> Timer After Correct Guess and Not Pressing On Time After </p> <br>
+<p> Timer After Correct Guess and Not Pressing On Time After </p>
 ![Timer After Correct Guess and Not Pressing On Time After](https://user-images.githubusercontent.com/69877857/160549054-a9f61041-ea62-43b4-9263-a328216df243.gif)
 
 
