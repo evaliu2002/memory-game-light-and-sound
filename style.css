@@ -6,32 +6,40 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 /* adjust typography defaults */
 body {
-  background-color: slategrey;
   color: white;
   margin: 2rem;
   font-family: helvetica, arial, sans-serif;
+  background: linear-gradient(90deg, slategrey 50%, RGB(200, 162, 200) 50%);
 }
 
 h1 {
+  text-align: center;
   font-family: verdana, arial, sans-serif;
-  color: RGB(200, 162, 200);
+  color: white;
 }
 
 p {
-  color: RGB(200, 162, 200);
+  text-align: center;
+  color: white;
 }
 
 button {
   padding: 10px;
   border-radius: 50%;
   background-color: transparent;
-  border-color: RGB(200, 162, 200);
+  border-color: purple;
+}
+
+#sBtn {
+  text-align: center;
 }
 
 #gameButtonArea > button {
@@ -44,7 +52,8 @@ button {
   background: red;
 }
 
-#button1:active, #button1.lit {
+#button1:active,
+#button1.lit {
   background-image: url(https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/mrkrabs.png?v=1648451576922);
   background-size: cover;
 }
@@ -53,7 +62,8 @@ button {
   background: lightblue;
 }
 
-#button2:active, #button2.lit {
+#button2:active,
+#button2.lit {
   background-image: url(https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/squidward.png?v=1648451498018);
   background-size: cover;
 }
@@ -62,7 +72,8 @@ button {
   background: pink;
 }
 
-#button3:active, #button3.lit {
+#button3:active,
+#button3.lit {
   background-image: url(https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/patrick.png?v=1648451498050);
   background-size: cover;
 }
@@ -71,7 +82,8 @@ button {
   background: lightyellow;
 }
 
-#button4:active, #button4.lit {
+#button4:active,
+#button4.lit {
   background-image: url(https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/spongebob.jpg?v=1648451396442);
   background-size: cover;
 }
@@ -80,16 +92,17 @@ button {
   background: violet;
 }
 
-#button5:active, #button5.lit {
+#button5:active,
+#button5.lit {
   background-image: url(https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/sandy.jpg?v=1648451576371);
   background-size: cover;
-  
 }
 
-#stopBtn, stopBtn.lit {
+#stopBtn,
+stopBtn.lit {
   background: RGB(200, 162, 200);
 }
 
 .hidden {
-  display:none;
+  display: none;
 }
