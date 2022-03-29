@@ -38,14 +38,14 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
+If you recorded multiple GIFs for all the implemented features, you can add them here: <br>
 ![Winning Gif + Button Images + More than 4 Buttons] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameWinning.gif?v=1648461323054 <br>
 ![Losing Gif + Guessing Strikes Gif] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameLosing.gif?v=1648461320029
 ![Guessing Timer Beginning Try Again] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/TickingClock1.gif?v=1648464965108
 
 ## Reflection Questions
 
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. <br>
    [https://www.w3schools.com/howto/howto_css_round_buttons.asp,<br>
    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random,<br>
    https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/,<br>
@@ -55,7 +55,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    how to make a button background an image, and how to make buttons round using CSS. I also attempted to contact the
    TAs on Slack regarding a console error.]
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) <br>
    [A challenge that I encountered was programming through Javascript since I wasn't used to
    some of the Javascript syntax as I usually program using Java, it took me a short while to be able to type up parts of my code.
    I overcame this challenge through practicing getting used to Javascript syntax by searching up about Javascript
@@ -71,7 +71,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    generator function to only generate one number and then pushed the random numbers into the pattern array inside startGame
    which sped up the pattern generating.]
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) <br>
    [Questions I have about web development is how I would be able to host a website after I finished implementing
    the website locally. I have worked with the spark Java framework before, but I am unsure of how to host a
    website through a bought domain and if I need to use my own servers to host. I am also curious as to why React
@@ -80,7 +80,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    web app at all times?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing 
-   (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+   (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) <br>
    [If I had a few more hours to work on this project, I would focus more on the UX/UI elements of the project. I would experiment
    with CSS, implement and test different types of UX designs on the webpage. I'm interested in creating an animated background
    for the webpage with different changing shapes around the page. I could also implement a scoring system where everytime the
