@@ -40,7 +40,8 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here: <br>
 <p> Winning Gif + Button Images + More than 4 Buttons </p>
-![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160548546-a491c1f4-d949-468e-81c2-fe0f802a0891.gif)
+![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160548546-a491c1f4-d949-468e-81c2-fe0f802a0891.gif)![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160549986-e433fc45-12a3-44af-9b06-1cb6d4949389.gif)
+
 <p> Losing Gif + Guessing Strikes Gif </p>
 ![LightandSoundMemoryGameLosing](https://user-images.githubusercontent.com/69877857/160548573-d32a4cb8-957d-4195-ad7e-3dcc375ca7ad.gif)
 <p> Guessing Timer Beginning Try Again </p>
