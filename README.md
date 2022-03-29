@@ -1,36 +1,36 @@
-# Pre-work - *Memory Game*
+# Pre-work - _Memory Game_
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
 
 Submitted by: **Eva Liu**
 
-Time spent: **#** hours spent in total
+Time spent: **20** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/worried-fallacious-wool?path=README.md%3A1%3A0
 
 ## Required Functionality
 
 The following **required** functionality is complete:
 
-* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [x] Game buttons each light up and play a sound when clicked. 
-* [x] Computer plays back sequence of clues including sound and visual cue for each button
-* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [x] User wins the game after guessing a complete pattern
-* [x] User loses the game after an incorrect guess
+- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+- [x] "Start" button toggles between "Start" and "Stop" when clicked.
+- [x] Game buttons each light up and play a sound when clicked.
+- [x] Computer plays back sequence of clues including sound and visual cue for each button
+- [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
+- [x] User wins the game after guessing a complete pattern
+- [x] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [x] More than 4 functional game buttons
-* [x] Playback speeds up on each turn
-* [x] Computer picks a different pattern each time the game is played
-* [x] Player only loses after 3 mistakes (instead of on the first mistake)
-* [x] Game button appearance change goes beyond color (e.g. add an image)
-* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+- [x] More than 4 functional game buttons
+- [x] Playback speeds up on each turn
+- [x] Computer picks a different pattern each time the game is played
+- [x] Player only loses after 3 mistakes (instead of on the first mistake)
+- [x] Game button appearance change goes beyond color (e.g. add an image)
+- [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+- [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -39,42 +39,57 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+![Winning Gif + Button Images + More than 4 Buttons] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameWinning.gif?v=1648461323054 <br>
+![Losing Gif + Guessing Strikes Gif] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/LightandSoundMemoryGameLosing.gif?v=1648461320029
+![Guessing Timer Beginning Try Again] https://cdn.glitch.global/a926f172-367e-4e2f-8c15-5508b0909d6e/TickingClock1.gif?v=1648464965108
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[https://www.w3schools.com/howto/howto_css_round_buttons.asp,<br>
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random,<br>
- https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/,<br>
- https://www.w3schools.com/js/js_syntax.asp,<br>
- https://www.geeksforgeeks.org/how-to-change-an-input-button-image-using-css/#:~:text=The%20default%20button%20in%20HTML,show%20only%20the%20image%20itself, <br>
- I google searched the RGB code for the color lilac, Javascript Math.random, the setInterval clearInterval methods,
- how to make a button background an image, and how to make buttons round using CSS.]
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[A challenge that I encountered was programming through Javascript since I wasn't used to 
- some of the Javascript syntax as I usually program using Java, it took me a short while to be able to type up parts of my code.
- I overcame this challenge through practicing getting used to Javascript syntax by searching up about Javascript
- syntax and reading more about it.
- Another challenge was when I was implementing the random pattern generator. I assumed that implementing a random number
- generator in Javascript was different than Java due to Javascript variables and objects. I was stuck for 40 minutes
- wondering why the number generator wasn't inputting numbers into my pattern array until I realized that I just forgot
- the parenthesis after Math.random when I was comparing my code with examples online.
- It was funny but also really frustrating after I finished debugging.]
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+   [https://www.w3schools.com/howto/howto_css_round_buttons.asp,<br>
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random,<br>
+   https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/,<br>
+   https://www.w3schools.com/js/js_syntax.asp,<br>
+   https://www.geeksforgeeks.org/how-to-change-an-input-button-image-using-css/#:~:text=The%20default%20button%20in%20HTML,show%20only%20the%20image%20itself, <br>
+   I google searched the RGB code for the color lilac, Javascript Math.random, the setInterval clearInterval methods,
+   how to make a button background an image, and how to make buttons round using CSS. I also attempted to contact the
+   TAs on Slack regarding a console error.]
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[Questions I have about web development is how I would be able to host a website after I finished implementing
- the website locally. I have worked with the spark Java framework before, but I am unsure of how to host a
- website through a bought domain and if I need to use my own servers to host. ]
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+   [A challenge that I encountered was programming through Javascript since I wasn't used to
+   some of the Javascript syntax as I usually program using Java, it took me a short while to be able to type up parts of my code.
+   I overcame this challenge through practicing getting used to Javascript syntax by searching up about Javascript
+   syntax and reading more about it.
+   Another challenge was when I was implementing the random pattern generator. I assumed that implementing a random number
+   generator in Javascript was different than Java due to Javascript variables and objects. I was stuck for 40 minutes
+   wondering why the number generator wasn't inputting numbers into my pattern array until I realized that I just forgot
+   the parenthesis after Math.random when I was comparing my code with examples online.
+   It was funny but also really frustrating after I finished debugging.
+   A third challenge I had was when I implemented my random pattern generator. I created a function to randomly generate the
+   entire pattern and then ran the pattern in the startGame function. Due to the pattern generator function returning the
+   entire pattern, the function had delays in returning the pattern to startGame. To fix this problem, I altered the pattern
+   generator function to only generate one number and then pushed the random numbers into the pattern array inside startGame
+   which sped up the pattern generating.]
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[If I had a few more hours to work on this project, ]
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+   [Questions I have about web development is how I would be able to host a website after I finished implementing
+   the website locally. I have worked with the spark Java framework before, but I am unsure of how to host a
+   website through a bought domain and if I need to use my own servers to host. I am also curious as to why React
+   and Angular is so common in the industry and the benefits of Typescript versus Javascript. How does testing
+   work for web developing? How does deploying and maintaining a web app work if there are active users of the
+   web app at all times?]
 
-
+4. If you had a few more hours to work on this project, what would you spend them doing 
+   (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+   [If I had a few more hours to work on this project, I would focus more on the UX/UI elements of the project. I would experiment
+   with CSS, implement and test different types of UX designs on the webpage. I'm interested in creating an animated background
+   for the webpage with different changing shapes around the page. I could also implement a scoring system where everytime the
+   player wins, the scoreboard would update the points by one. If the player loses, the scoreboard will reset, but if the
+   player consecutively wins 3 times, then large "YOU WON" text will pop up with animated confetti popping up in the webpage.]
 
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](your-link-here)
-
 
 ## License
 
