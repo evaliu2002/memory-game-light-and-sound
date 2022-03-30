@@ -4,7 +4,7 @@
 
 Submitted by: **Eva Liu**
 
-Time spent: **20** hours spent in total
+Time spent: **21** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/worried-fallacious-wool?path=README.md%3A1%3A0
 
@@ -79,7 +79,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    work for web developing? How does deploying and maintaining a web app work if there are active users of the
    web app at all times?]
 
-4. If you had a few more hours to work on this project, what would you spend them doing 
+4. If you had a few more hours to work on this project, what would you spend them doing
    (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
    [If I had a few more hours to work on this project, I would focus more on the UX/UI elements of the project. I would experiment
    with CSS, implement and test different types of UX designs on the webpage. I'm interested in creating an animated background
@@ -89,7 +89,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://drive.google.com/file/d/1qjo2O1ciFP46J_RieH89h6ig5CJFMS9k/view?usp=sharing
 
 ## License
 

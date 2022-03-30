@@ -101,7 +101,7 @@ function playClueSequence() {
     delay += clueHoldTime;
     delay += cluePauseTime;
   }
-  stopTimer();
+  startTimer();
 }
 
 function guess(btn) {
@@ -120,11 +120,11 @@ function guess(btn) {
     if (guessCounter == progress) {
       if (progress == pattern.length - 1) {
         winGame();
+        stopTimer();
       } else {
         progress++;
         playClueSequence();
         timeCounter = 1;
-        startTimer();
       }
     } else {
       guessCounter++;
