@@ -4,7 +4,7 @@
 
 Submitted by: **Eva Liu**
 
-Time spent: **20** hours spent in total
+Time spent: **21** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/worried-fallacious-wool?path=README.md%3A1%3A0
 
@@ -95,7 +95,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://drive.google.com/file/d/1qjo2O1ciFP46J_RieH89h6ig5CJFMS9k/view?usp=sharing
 
 ## License
 
