@@ -1,6 +1,6 @@
 # Pre-work - _Memory Game_
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's Internship Application.
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's Internship Program.
 
 Submitted by: **Eva Liu**
 
