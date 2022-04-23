@@ -1,6 +1,6 @@
 # Pre-work - _Memory Game_
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's Internship Application.
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's Internship Program.
 
 Submitted by: **Eva Liu**
 
@@ -39,6 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+If you recorded multiple GIFs for all the implemented features, you can add them here: <br>
+<br>Winning Gif + Button Images + More than 4 Buttons
 ![LightandSoundMemoryGameWinning](https://user-images.githubusercontent.com/69877857/160548546-a491c1f4-d949-468e-81c2-fe0f802a0891.gif)
 <br>Losing Gif + Guessing Strikes Gif
 ![LightandSoundMemoryGameLosing](https://user-images.githubusercontent.com/69877857/160548573-d32a4cb8-957d-4195-ad7e-3dcc375ca7ad.gif)
